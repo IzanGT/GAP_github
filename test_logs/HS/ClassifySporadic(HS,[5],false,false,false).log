@@ -1,0 +1,17 @@
+########################################################
+### T3.04 | HS | primes=[ 5 ] | clifford=false
+########################################################
+Error, reached the pre-set memory limit
+(change it with the -o command line option) in
+  img := bpt ^ g; at /opt/gap-4.15.1/lib/stbc.gi:1356 called from 
+SiftedPermutation( G, g ) at /opt/gap-4.15.1/lib/grpperm.gi:695 called from
+elm in Source( map ) at /opt/gap-4.15.1/lib/mapping.gi:117 called from
+Image( a, i ) at /opt/gap-4.15.1/lib/ghom.gi:588 called from
+func( C[i] ) at /opt/gap-4.15.1/lib/coll.gi:663 called from
+List( GeneratorsSmallest( Source( a ) ), function ( i )
+      return Image( a, i );
+  end ) at /opt/gap-4.15.1/lib/ghom.gi:588 called from
+...  at C:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/RunAllTests.g:331
+you can 'return;'
+brk> quit;
+gap> quit;

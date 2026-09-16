@@ -1,0 +1,58 @@
+########################################################
+### T2.17 | J3 | primes=[ 3 ] | clifford=false
+########################################################
+
+========================================================
+=== PRIME p = 3
+========================================================
+Simple group   = J3
+Cover S_hat    = 3.J3
+Schur multiplier = 3
+|Out(S)| = 2
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : 3.J3
+Table for the S_hat extension : 3.J3.2
+Table for N_{S_hat}(P)  : 3^3.3^(1+2):8 (library)
+Table for N_A(P)        : 3^3.3^(1+2):8.2
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 85, conductor 19: case 2, partner chi[3], lambda=1
+chi[3] degree 85, conductor 19: case 2, partner chi[2], lambda=1
+chi[4] degree 323, conductor 5: case 2, partner chi[5], lambda=1
+chi[5] degree 323, conductor 5: case 2, partner chi[4], lambda=1
+chi[7] degree 646, conductor 5: case 2, partner chi[8], lambda=1
+chi[8] degree 646, conductor 5: case 2, partner chi[7], lambda=1
+chi[13] degree 1615, conductor 1: case 1, lambda=1
+chi[19] degree 2432, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 1: case 1, lambda=1
+chi[3] degree 1, conductor 4: case 2, partner chi[4], lambda=1
+chi[4] degree 1, conductor 4: case 2, partner chi[3], lambda=1
+chi[5] degree 1, conductor 8: case 2, partner chi[8], lambda=1
+chi[6] degree 1, conductor 8: case 2, partner chi[7], lambda=1
+chi[7] degree 1, conductor 8: case 2, partner chi[6], lambda=1
+chi[8] degree 1, conductor 8: case 2, partner chi[5], lambda=1
+chi[13] degree 8, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 3 | Case-2 orbits: 3
+
+  chi_S[19] (degree 2432) --> chi_N[13] (degree 8)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[13] (degree 1615) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  {chi_S[7], chi_S[8]} (degree 646) --> {chi_N[3], chi_N[4]} (degree 1)  [case 2, lambda=1, C_p(S)=1, C_p(N)=1]
+  {chi_S[4], chi_S[5]} (degree 323) --> {chi_N[5], chi_N[8]} (degree 1)  [case 2, lambda=1, C_p(S)=1, C_p(N)=1]
+  {chi_S[2], chi_S[3]} (degree 85) --> {chi_N[6], chi_N[7]} (degree 1)  [case 2, lambda=1, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+### T2.17 STATUS: OK   (elapsed: 250 ms)

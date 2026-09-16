@@ -1,0 +1,358 @@
+########################################################
+### T2.04 | B | primes=[ 7 ] | clifford=true
+########################################################
+
+========================================================
+=== PRIME p = 7
+========================================================
+Simple group   = B
+Cover S_hat    = 2.B
+Schur multiplier = 2
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : implicit
+Verification, N         : implicit
+Table used for S_hat    : 2.B
+Table for N_{S_hat}(P)  : 2.BN7 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 4371, conductor 1: case 1, lambda=1
+chi[3] degree 96255, conductor 1: case 1, lambda=1
+chi[4] degree 1139374, conductor 1: case 1, lambda=1
+chi[6] degree 9550635, conductor 1: case 1, lambda=1
+chi[7] degree 63532485, conductor 1: case 1, lambda=1
+chi[9] degree 356054375, conductor 1: case 1, lambda=1
+chi[10] degree 1407126890, conductor 1: case 1, lambda=1
+chi[11] degree 3214743741, conductor 1: case 1, lambda=1
+chi[12] degree 4221380670, conductor 1: case 1, lambda=1
+chi[13] degree 4275362520, conductor 1: case 1, lambda=1
+chi[15] degree 9287037474, conductor 1: case 1, lambda=1
+chi[17] degree 13508418144, conductor 1: case 1, lambda=1
+chi[20] degree 80426400000, conductor 1: case 1, lambda=1
+chi[21] degree 90807234375, conductor 47: case 1, lambda=1
+chi[22] degree 90807234375, conductor 47: case 1, lambda=1
+chi[24] degree 156871952640, conductor 1: case 1, lambda=1
+chi[27] degree 309720864375, conductor 1: case 1, lambda=1
+chi[31] degree 641238778125, conductor 1: case 1, lambda=1
+chi[32] degree 1095935366250, conductor 1: case 1, lambda=1
+chi[33] degree 1917448516791, conductor 1: case 1, lambda=1
+chi[38] degree 4836998684375, conductor 1: case 1, lambda=1
+chi[40] degree 6145833622500, conductor 1: case 1, lambda=1
+chi[42] degree 6697382793750, conductor 1: case 1, lambda=1
+chi[43] degree 7331420799495, conductor 1: case 1, lambda=1
+chi[45] degree 8379477898506, conductor 31: case 1, lambda=1
+chi[46] degree 8379477898506, conductor 31: case 1, lambda=1
+chi[55] degree 17413195263750, conductor 1: case 1, lambda=1
+chi[60] degree 22348485900000, conductor 1: case 1, lambda=1
+chi[63] degree 38348970335820, conductor 1: case 1, lambda=1
+chi[64] degree 38658236225625, conductor 1: case 1, lambda=1
+chi[66] degree 47097393520320, conductor 1: case 1, lambda=1
+chi[67] degree 78359378686875, conductor 1: case 1, lambda=1
+chi[69] degree 94981065075000, conductor 1: case 1, lambda=1
+chi[73] degree 140763279350304, conductor 1: case 1, lambda=1
+chi[74] degree 162746401888125, conductor 1: case 1, lambda=1
+chi[76] degree 210919336847010, conductor 1: case 1, lambda=1
+chi[77] degree 211069033500000, conductor 1: case 1, lambda=1
+chi[79] degree 260522896303125, conductor 1: case 1, lambda=1
+chi[84] degree 386959894750000, conductor 1: case 1, lambda=1
+chi[85] degree 422966584586250, conductor 1: case 1, lambda=1
+chi[88] degree 595404085985280, conductor 1: case 1, lambda=1
+chi[90] degree 652994822390625, conductor 1: case 1, lambda=1
+chi[91] degree 662947625486250, conductor 1: case 1, lambda=1
+chi[92] degree 665029816320000, conductor 1: case 1, lambda=1
+chi[93] degree 665029816320000, conductor 1: case 1, lambda=1
+chi[94] degree 677025031854600, conductor 1: case 1, lambda=1
+chi[96] degree 718889622405120, conductor 1: case 1, lambda=1
+chi[97] degree 775438738408125, conductor 1: case 1, lambda=1
+chi[100] degree 835517991997440, conductor 1: case 1, lambda=1
+chi[103] degree 1042755084800000, conductor 1: case 1, lambda=1
+chi[105] degree 1198405322994375, conductor 1: case 1, lambda=1
+chi[106] degree 1370975689505565, conductor 1: case 1, lambda=1
+chi[107] degree 1370975689505565, conductor 1: case 1, lambda=1
+chi[111] degree 1679281227336960, conductor 1: case 1, lambda=1
+chi[112] degree 1711786747207680, conductor 1: case 1, lambda=1
+chi[115] degree 2123804897280000, conductor 1: case 1, lambda=1
+chi[117] degree 2565217512000000, conductor 1: case 1, lambda=1
+chi[118] degree 2611979289562500, conductor 1: case 1, lambda=1
+chi[119] degree 2642676197359616, conductor 1: case 1, lambda=1
+chi[121] degree 2788834713600000, conductor 1: case 1, lambda=1
+chi[124] degree 2991219686193960, conductor 1: case 1, lambda=1
+chi[126] degree 3469068040246875, conductor 1: case 1, lambda=1
+chi[131] degree 4068660047203125, conductor 1: case 1, lambda=1
+chi[134] degree 4231406449091250, conductor 1: case 1, lambda=1
+chi[135] degree 4231406449091250, conductor 1: case 1, lambda=1
+chi[137] degree 4331775591000000, conductor 8: case 1, lambda=1
+chi[138] degree 4331775591000000, conductor 8: case 1, lambda=1
+chi[141] degree 4643518737000000, conductor 1: case 1, lambda=1
+chi[144] degree 4919769220713750, conductor 1: case 1, lambda=1
+chi[146] degree 5223958579125000, conductor 1: case 1, lambda=1
+chi[150] degree 5992026614971875, conductor 1: case 1, lambda=1
+chi[161] degree 8351460096890625, conductor 1: case 1, lambda=1
+chi[164] degree 8774244412835616, conductor 1: case 1, lambda=1
+chi[165] degree 9211433539600384, conductor 1: case 1, lambda=1
+chi[166] degree 9211433539600384, conductor 1: case 1, lambda=1
+chi[167] degree 9558000449712000, conductor 1: case 1, lambda=1
+chi[173] degree 10134024677130240, conductor 1: case 1, lambda=1
+chi[175] degree 11381560819200000, conductor 1: case 1, lambda=1
+chi[176] degree 11854109736960000, conductor 1: case 1, lambda=1
+chi[177] degree 11854109736960000, conductor 1: case 1, lambda=1
+chi[185] degree 96256, conductor 1: case 1, lambda=2
+chi[186] degree 10506240, conductor 1: case 1, lambda=2
+chi[187] degree 410132480, conductor 1: case 1, lambda=2
+chi[188] degree 8844386304, conductor 1: case 1, lambda=2
+chi[194] degree 864538761216, conductor 1: case 1, lambda=2
+chi[195] degree 4322693806080, conductor 1: case 1, lambda=2
+chi[196] degree 10177847623680, conductor 1: case 1, lambda=2
+chi[198] degree 21400636907520, conductor 1: case 1, lambda=2
+chi[199] degree 23459577856000, conductor 20: case 1, lambda=2
+chi[200] degree 23459577856000, conductor 20: case 1, lambda=2
+chi[201] degree 31123395403776, conductor 1: case 1, lambda=2
+chi[204] degree 60863961600000, conductor 1: case 1, lambda=2
+chi[209] degree 138547878400000, conductor 1: case 1, lambda=2
+chi[210] degree 168430710030336, conductor 19: case 1, lambda=2
+chi[211] degree 168430710030336, conductor 19: case 1, lambda=2
+chi[221] degree 1566852857856000, conductor 1: case 1, lambda=2
+chi[223] degree 2642676197359616, conductor 104: case 1, lambda=2
+chi[224] degree 2642676197359616, conductor 104: case 1, lambda=2
+chi[226] degree 3370903132962816, conductor 1: case 1, lambda=2
+chi[229] degree 4215392896000000, conductor 47: case 1, lambda=2
+chi[230] degree 4215392896000000, conductor 47: case 1, lambda=2
+chi[231] degree 4250243698421760, conductor 1: case 1, lambda=2
+chi[238] degree 8580585368070144, conductor 31: case 1, lambda=2
+chi[239] degree 8580585368070144, conductor 31: case 1, lambda=2
+chi[240] degree 8740741152000000, conductor 1: case 1, lambda=2
+chi[241] degree 12604975138529280, conductor 1: case 1, lambda=2
+chi[245] degree 24515659148820480, conductor 1: case 1, lambda=2
+Clifford verification S_hat: implicit (classification via library tables).
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 1: case 1, lambda=1
+chi[3] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 1, conductor 1: case 1, lambda=1
+chi[5] degree 1, conductor 3: case 1, lambda=1
+chi[6] degree 1, conductor 3: case 1, lambda=1
+chi[7] degree 1, conductor 3: case 1, lambda=1
+chi[8] degree 1, conductor 3: case 1, lambda=1
+chi[9] degree 1, conductor 3: case 1, lambda=1
+chi[10] degree 1, conductor 3: case 1, lambda=1
+chi[11] degree 1, conductor 3: case 1, lambda=1
+chi[12] degree 1, conductor 3: case 1, lambda=1
+chi[13] degree 2, conductor 1: case 1, lambda=1
+chi[14] degree 2, conductor 1: case 1, lambda=1
+chi[15] degree 2, conductor 1: case 1, lambda=1
+chi[16] degree 2, conductor 3: case 1, lambda=1
+chi[17] degree 2, conductor 3: case 1, lambda=1
+chi[18] degree 2, conductor 8: case 1, lambda=2
+chi[19] degree 2, conductor 8: case 1, lambda=2
+chi[20] degree 2, conductor 24: case 1, lambda=2
+chi[21] degree 2, conductor 24: case 1, lambda=2
+chi[22] degree 2, conductor 24: case 1, lambda=2
+chi[23] degree 2, conductor 24: case 1, lambda=2
+chi[24] degree 2, conductor 3: case 1, lambda=1
+chi[25] degree 2, conductor 3: case 1, lambda=1
+chi[26] degree 2, conductor 3: case 1, lambda=1
+chi[27] degree 2, conductor 3: case 1, lambda=1
+chi[28] degree 2, conductor 8: case 1, lambda=1
+chi[29] degree 2, conductor 8: case 1, lambda=1
+chi[30] degree 2, conductor 8: case 1, lambda=1
+chi[31] degree 2, conductor 8: case 1, lambda=1
+chi[32] degree 2, conductor 24: case 1, lambda=1
+chi[33] degree 2, conductor 24: case 1, lambda=1
+chi[34] degree 2, conductor 24: case 1, lambda=1
+chi[35] degree 2, conductor 24: case 1, lambda=1
+chi[36] degree 2, conductor 24: case 1, lambda=1
+chi[37] degree 2, conductor 24: case 1, lambda=1
+chi[38] degree 2, conductor 24: case 1, lambda=1
+chi[39] degree 2, conductor 24: case 1, lambda=1
+chi[40] degree 2, conductor 3: case 1, lambda=1
+chi[41] degree 2, conductor 3: case 1, lambda=1
+chi[42] degree 2, conductor 3: case 1, lambda=1
+chi[43] degree 2, conductor 3: case 1, lambda=1
+chi[44] degree 2, conductor 3: case 1, lambda=1
+chi[45] degree 2, conductor 3: case 1, lambda=1
+chi[46] degree 3, conductor 1: case 1, lambda=1
+chi[47] degree 3, conductor 1: case 1, lambda=1
+chi[48] degree 3, conductor 1: case 1, lambda=1
+chi[49] degree 3, conductor 1: case 1, lambda=1
+chi[50] degree 3, conductor 3: case 1, lambda=1
+chi[51] degree 3, conductor 3: case 1, lambda=1
+chi[52] degree 3, conductor 3: case 1, lambda=1
+chi[53] degree 3, conductor 3: case 1, lambda=1
+chi[54] degree 3, conductor 3: case 1, lambda=1
+chi[55] degree 3, conductor 3: case 1, lambda=1
+chi[56] degree 3, conductor 3: case 1, lambda=1
+chi[57] degree 3, conductor 3: case 1, lambda=1
+chi[58] degree 4, conductor 1: case 1, lambda=1
+chi[59] degree 4, conductor 1: case 1, lambda=1
+chi[60] degree 4, conductor 1: case 1, lambda=1
+chi[61] degree 4, conductor 1: case 1, lambda=2
+chi[62] degree 4, conductor 1: case 1, lambda=2
+chi[63] degree 4, conductor 1: case 1, lambda=2
+chi[64] degree 4, conductor 3: case 1, lambda=1
+chi[65] degree 4, conductor 3: case 1, lambda=1
+chi[66] degree 4, conductor 3: case 1, lambda=1
+chi[67] degree 4, conductor 3: case 1, lambda=1
+chi[68] degree 4, conductor 3: case 1, lambda=1
+chi[69] degree 4, conductor 3: case 1, lambda=1
+chi[70] degree 4, conductor 3: case 1, lambda=1
+chi[71] degree 4, conductor 3: case 1, lambda=1
+chi[72] degree 4, conductor 3: case 1, lambda=1
+chi[73] degree 4, conductor 3: case 1, lambda=1
+chi[74] degree 4, conductor 3: case 1, lambda=1
+chi[75] degree 4, conductor 3: case 1, lambda=1
+chi[76] degree 4, conductor 3: case 1, lambda=2
+chi[77] degree 4, conductor 3: case 1, lambda=2
+chi[78] degree 4, conductor 3: case 1, lambda=2
+chi[79] degree 4, conductor 3: case 1, lambda=2
+chi[80] degree 4, conductor 3: case 1, lambda=2
+chi[81] degree 4, conductor 3: case 1, lambda=2
+chi[82] degree 6, conductor 1: case 1, lambda=1
+chi[83] degree 6, conductor 3: case 1, lambda=1
+chi[84] degree 6, conductor 3: case 1, lambda=1
+chi[85] degree 6, conductor 8: case 1, lambda=2
+chi[86] degree 6, conductor 8: case 1, lambda=2
+chi[87] degree 6, conductor 24: case 1, lambda=2
+chi[88] degree 6, conductor 24: case 1, lambda=2
+chi[89] degree 6, conductor 24: case 1, lambda=2
+chi[90] degree 6, conductor 24: case 1, lambda=2
+chi[91] degree 8, conductor 1: case 1, lambda=2
+chi[92] degree 8, conductor 3: case 1, lambda=2
+chi[93] degree 8, conductor 3: case 1, lambda=2
+chi[94] degree 48, conductor 1: case 1, lambda=1
+chi[95] degree 48, conductor 1: case 1, lambda=1
+chi[96] degree 48, conductor 1: case 1, lambda=1
+chi[97] degree 48, conductor 1: case 1, lambda=1
+chi[98] degree 48, conductor 3: case 1, lambda=1
+chi[99] degree 48, conductor 3: case 1, lambda=1
+chi[100] degree 48, conductor 3: case 1, lambda=1
+chi[101] degree 48, conductor 3: case 1, lambda=1
+chi[102] degree 48, conductor 3: case 1, lambda=1
+chi[103] degree 48, conductor 3: case 1, lambda=1
+chi[104] degree 48, conductor 3: case 1, lambda=1
+chi[105] degree 48, conductor 3: case 1, lambda=1
+chi[106] degree 96, conductor 1: case 1, lambda=2
+chi[107] degree 96, conductor 3: case 1, lambda=2
+chi[108] degree 96, conductor 3: case 1, lambda=2
+Clifford verification N_S_hat(P): implicit (classification via library tables).
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 108 | Case-2 orbits: 0
+
+  chi_S[176] (degree 11854109736960000) --> chi_N[94] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[177] (degree 11854109736960000) --> chi_N[95] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[175] (degree 11381560819200000) --> chi_N[96] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[173] (degree 10134024677130240) --> chi_N[97] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[167] (degree 9558000449712000) --> chi_N[98] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[165] (degree 9211433539600384) --> chi_N[99] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[166] (degree 9211433539600384) --> chi_N[100] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[164] (degree 8774244412835616) --> chi_N[101] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[161] (degree 8351460096890625) --> chi_N[102] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[150] (degree 5992026614971875) --> chi_N[103] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[146] (degree 5223958579125000) --> chi_N[104] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[144] (degree 4919769220713750) --> chi_N[105] (degree 48)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[141] (degree 4643518737000000) --> chi_N[82] (degree 6)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[137] (degree 4331775591000000) --> chi_N[83] (degree 6)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[138] (degree 4331775591000000) --> chi_N[84] (degree 6)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[134] (degree 4231406449091250) --> chi_N[58] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[135] (degree 4231406449091250) --> chi_N[59] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[131] (degree 4068660047203125) --> chi_N[60] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[126] (degree 3469068040246875) --> chi_N[64] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[124] (degree 2991219686193960) --> chi_N[65] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[121] (degree 2788834713600000) --> chi_N[66] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[119] (degree 2642676197359616) --> chi_N[67] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[118] (degree 2611979289562500) --> chi_N[68] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[117] (degree 2565217512000000) --> chi_N[69] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[115] (degree 2123804897280000) --> chi_N[70] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[112] (degree 1711786747207680) --> chi_N[71] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[111] (degree 1679281227336960) --> chi_N[72] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[106] (degree 1370975689505565) --> chi_N[73] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[107] (degree 1370975689505565) --> chi_N[74] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[105] (degree 1198405322994375) --> chi_N[75] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[103] (degree 1042755084800000) --> chi_N[46] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[100] (degree 835517991997440) --> chi_N[47] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[97] (degree 775438738408125) --> chi_N[48] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[96] (degree 718889622405120) --> chi_N[49] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[94] (degree 677025031854600) --> chi_N[50] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[92] (degree 665029816320000) --> chi_N[51] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[93] (degree 665029816320000) --> chi_N[52] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[91] (degree 662947625486250) --> chi_N[53] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[90] (degree 652994822390625) --> chi_N[54] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[88] (degree 595404085985280) --> chi_N[55] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[85] (degree 422966584586250) --> chi_N[56] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[84] (degree 386959894750000) --> chi_N[57] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[79] (degree 260522896303125) --> chi_N[13] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[77] (degree 211069033500000) --> chi_N[14] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[76] (degree 210919336847010) --> chi_N[15] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[74] (degree 162746401888125) --> chi_N[16] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[73] (degree 140763279350304) --> chi_N[17] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[69] (degree 94981065075000) --> chi_N[24] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[67] (degree 78359378686875) --> chi_N[25] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[66] (degree 47097393520320) --> chi_N[26] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[64] (degree 38658236225625) --> chi_N[27] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[63] (degree 38348970335820) --> chi_N[28] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[60] (degree 22348485900000) --> chi_N[29] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[55] (degree 17413195263750) --> chi_N[30] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[45] (degree 8379477898506) --> chi_N[31] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[46] (degree 8379477898506) --> chi_N[32] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[43] (degree 7331420799495) --> chi_N[33] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[42] (degree 6697382793750) --> chi_N[34] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[40] (degree 6145833622500) --> chi_N[35] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[38] (degree 4836998684375) --> chi_N[36] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[33] (degree 1917448516791) --> chi_N[37] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[32] (degree 1095935366250) --> chi_N[38] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[31] (degree 641238778125) --> chi_N[39] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[27] (degree 309720864375) --> chi_N[40] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[24] (degree 156871952640) --> chi_N[41] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[21] (degree 90807234375) --> chi_N[42] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[22] (degree 90807234375) --> chi_N[43] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[20] (degree 80426400000) --> chi_N[44] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[17] (degree 13508418144) --> chi_N[45] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[15] (degree 9287037474) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[13] (degree 4275362520) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[12] (degree 4221380670) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[11] (degree 3214743741) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[10] (degree 1407126890) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[9] (degree 356054375) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[7] (degree 63532485) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[6] (degree 9550635) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[4] (degree 1139374) --> chi_N[9] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[3] (degree 96255) --> chi_N[10] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 4371) --> chi_N[11] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[12] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[245] (degree 24515659148820480) --> chi_N[106] (degree 96)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[241] (degree 12604975138529280) --> chi_N[107] (degree 96)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[240] (degree 8740741152000000) --> chi_N[108] (degree 96)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[238] (degree 8580585368070144) --> chi_N[91] (degree 8)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[239] (degree 8580585368070144) --> chi_N[92] (degree 8)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[231] (degree 4250243698421760) --> chi_N[93] (degree 8)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[229] (degree 4215392896000000) --> chi_N[85] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[230] (degree 4215392896000000) --> chi_N[86] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[226] (degree 3370903132962816) --> chi_N[87] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[223] (degree 2642676197359616) --> chi_N[88] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[224] (degree 2642676197359616) --> chi_N[89] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[221] (degree 1566852857856000) --> chi_N[90] (degree 6)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[210] (degree 168430710030336) --> chi_N[61] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[211] (degree 168430710030336) --> chi_N[62] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[209] (degree 138547878400000) --> chi_N[63] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[204] (degree 60863961600000) --> chi_N[76] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[201] (degree 31123395403776) --> chi_N[77] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[199] (degree 23459577856000) --> chi_N[78] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[200] (degree 23459577856000) --> chi_N[79] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[198] (degree 21400636907520) --> chi_N[80] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[196] (degree 10177847623680) --> chi_N[81] (degree 4)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[195] (degree 4322693806080) --> chi_N[18] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[194] (degree 864538761216) --> chi_N[19] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[188] (degree 8844386304) --> chi_N[20] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[187] (degree 410132480) --> chi_N[21] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[186] (degree 10506240) --> chi_N[22] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+  chi_S[185] (degree 96256) --> chi_N[23] (degree 2)  [case 1, lambda=2, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+### T2.04 STATUS: OK   (elapsed: 250 ms)

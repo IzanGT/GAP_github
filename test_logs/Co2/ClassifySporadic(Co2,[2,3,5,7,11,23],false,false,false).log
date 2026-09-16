@@ -1,0 +1,554 @@
+########################################################
+### T1.11 | Co2 | primes=[ 2, 3, 5, 7, 11, 23 ] | clifford=false
+########################################################
+
+========================================================
+=== PRIME p = 2
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : Co2N2 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 23, conductor 1: case 1, lambda=1
+chi[3] degree 253, conductor 1: case 1, lambda=1
+chi[4] degree 275, conductor 1: case 1, lambda=1
+chi[5] degree 1771, conductor 1: case 1, lambda=1
+chi[7] degree 2277, conductor 1: case 1, lambda=1
+chi[8] degree 4025, conductor 1: case 1, lambda=1
+chi[10] degree 9625, conductor 23: case 1, lambda=1
+chi[11] degree 9625, conductor 23: case 1, lambda=1
+chi[12] degree 10395, conductor 15: case 1, lambda=1
+chi[13] degree 10395, conductor 15: case 1, lambda=1
+chi[16] degree 31625, conductor 1: case 1, lambda=1
+chi[17] degree 31625, conductor 1: case 1, lambda=1
+chi[20] degree 44275, conductor 1: case 1, lambda=1
+chi[22] degree 91125, conductor 7: case 1, lambda=1
+chi[23] degree 91125, conductor 7: case 1, lambda=1
+chi[27] degree 184437, conductor 1: case 1, lambda=1
+chi[29] degree 221375, conductor 1: case 1, lambda=1
+chi[31] degree 239085, conductor 15: case 1, lambda=1
+chi[32] degree 239085, conductor 15: case 1, lambda=1
+chi[35] degree 284625, conductor 1: case 1, lambda=1
+chi[38] degree 398475, conductor 1: case 1, lambda=1
+chi[39] degree 398475, conductor 1: case 1, lambda=1
+chi[40] degree 430353, conductor 1: case 1, lambda=1
+chi[43] degree 467775, conductor 1: case 1, lambda=1
+chi[46] degree 664125, conductor 1: case 1, lambda=1
+chi[47] degree 664125, conductor 1: case 1, lambda=1
+chi[48] degree 664125, conductor 1: case 1, lambda=1
+chi[49] degree 853875, conductor 1: case 1, lambda=1
+chi[51] degree 1291059, conductor 1: case 1, lambda=1
+chi[56] degree 1992375, conductor 1: case 1, lambda=1
+chi[60] degree 2095875, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 1: case 1, lambda=1
+chi[3] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 1, conductor 1: case 1, lambda=1
+chi[5] degree 1, conductor 1: case 1, lambda=1
+chi[6] degree 1, conductor 1: case 1, lambda=1
+chi[7] degree 1, conductor 1: case 1, lambda=1
+chi[8] degree 1, conductor 1: case 1, lambda=1
+chi[9] degree 1, conductor 1: case 1, lambda=1
+chi[10] degree 1, conductor 1: case 1, lambda=1
+chi[11] degree 1, conductor 1: case 1, lambda=1
+chi[12] degree 1, conductor 1: case 1, lambda=1
+chi[13] degree 1, conductor 1: case 1, lambda=1
+chi[14] degree 1, conductor 1: case 1, lambda=1
+chi[15] degree 1, conductor 1: case 1, lambda=1
+chi[16] degree 1, conductor 1: case 1, lambda=1
+chi[17] degree 1, conductor 1: case 1, lambda=1
+chi[18] degree 1, conductor 1: case 1, lambda=1
+chi[19] degree 1, conductor 1: case 1, lambda=1
+chi[20] degree 1, conductor 1: case 1, lambda=1
+chi[21] degree 1, conductor 1: case 1, lambda=1
+chi[22] degree 1, conductor 1: case 1, lambda=1
+chi[23] degree 1, conductor 1: case 1, lambda=1
+chi[24] degree 1, conductor 1: case 1, lambda=1
+chi[25] degree 1, conductor 1: case 1, lambda=1
+chi[26] degree 1, conductor 1: case 1, lambda=1
+chi[27] degree 1, conductor 1: case 1, lambda=1
+chi[28] degree 1, conductor 1: case 1, lambda=1
+chi[29] degree 1, conductor 1: case 1, lambda=1
+chi[30] degree 1, conductor 1: case 1, lambda=1
+chi[31] degree 1, conductor 1: case 1, lambda=1
+chi[32] degree 1, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 32 | Case-2 orbits: 0
+
+  chi_S[60] (degree 2095875) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[56] (degree 1992375) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[51] (degree 1291059) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[49] (degree 853875) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[46] (degree 664125) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[47] (degree 664125) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[48] (degree 664125) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[43] (degree 467775) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[40] (degree 430353) --> chi_N[9] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[38] (degree 398475) --> chi_N[10] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[39] (degree 398475) --> chi_N[11] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[35] (degree 284625) --> chi_N[12] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[31] (degree 239085) --> chi_N[13] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[32] (degree 239085) --> chi_N[14] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[29] (degree 221375) --> chi_N[15] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[27] (degree 184437) --> chi_N[16] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[22] (degree 91125) --> chi_N[17] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[23] (degree 91125) --> chi_N[18] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[20] (degree 44275) --> chi_N[19] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[16] (degree 31625) --> chi_N[20] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[17] (degree 31625) --> chi_N[21] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[12] (degree 10395) --> chi_N[22] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[13] (degree 10395) --> chi_N[23] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[10] (degree 9625) --> chi_N[24] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[11] (degree 9625) --> chi_N[25] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[8] (degree 4025) --> chi_N[26] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[7] (degree 2277) --> chi_N[27] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[5] (degree 1771) --> chi_N[28] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[4] (degree 275) --> chi_N[29] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[3] (degree 253) --> chi_N[30] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 23) --> chi_N[31] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[32] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+========================================================
+=== PRIME p = 3
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : 3^(1+4)_+:(S3xQD16) (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 23, conductor 1: case 1, lambda=1
+chi[3] degree 253, conductor 1: case 1, lambda=1
+chi[4] degree 275, conductor 1: case 1, lambda=1
+chi[5] degree 1771, conductor 1: case 1, lambda=1
+chi[6] degree 2024, conductor 1: case 1, lambda=1
+chi[8] degree 4025, conductor 1: case 1, lambda=1
+chi[9] degree 7084, conductor 1: case 1, lambda=1
+chi[10] degree 9625, conductor 23: case 1, lambda=1
+chi[11] degree 9625, conductor 23: case 1, lambda=1
+chi[14] degree 12650, conductor 1: case 1, lambda=1
+chi[15] degree 23000, conductor 1: case 1, lambda=1
+chi[16] degree 31625, conductor 1: case 1, lambda=1
+chi[17] degree 31625, conductor 1: case 1, lambda=1
+chi[20] degree 44275, conductor 1: case 1, lambda=1
+chi[21] degree 63250, conductor 1: case 1, lambda=1
+chi[25] degree 129536, conductor 1: case 1, lambda=1
+chi[26] degree 177100, conductor 1: case 1, lambda=1
+chi[29] degree 221375, conductor 1: case 1, lambda=1
+chi[30] degree 226688, conductor 1: case 1, lambda=1
+chi[34] degree 253000, conductor 1: case 1, lambda=1
+chi[41] degree 442750, conductor 1: case 1, lambda=1
+chi[50] degree 1288000, conductor 1: case 1, lambda=1
+chi[52] degree 1771000, conductor 1: case 1, lambda=1
+chi[53] degree 1771000, conductor 1: case 1, lambda=1
+chi[54] degree 1835008, conductor 1: case 1, lambda=1
+chi[59] degree 2072576, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 1: case 1, lambda=1
+chi[3] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 1, conductor 1: case 1, lambda=1
+chi[5] degree 1, conductor 1: case 1, lambda=1
+chi[6] degree 1, conductor 1: case 1, lambda=1
+chi[7] degree 1, conductor 1: case 1, lambda=1
+chi[8] degree 1, conductor 1: case 1, lambda=1
+chi[9] degree 2, conductor 1: case 1, lambda=1
+chi[10] degree 2, conductor 1: case 1, lambda=1
+chi[11] degree 2, conductor 1: case 1, lambda=1
+chi[12] degree 2, conductor 1: case 1, lambda=1
+chi[13] degree 2, conductor 1: case 1, lambda=1
+chi[14] degree 2, conductor 1: case 1, lambda=1
+chi[15] degree 2, conductor 8: case 1, lambda=1
+chi[16] degree 2, conductor 8: case 1, lambda=1
+chi[17] degree 2, conductor 8: case 1, lambda=1
+chi[18] degree 2, conductor 8: case 1, lambda=1
+chi[19] degree 4, conductor 1: case 1, lambda=1
+chi[20] degree 4, conductor 8: case 1, lambda=1
+chi[21] degree 4, conductor 8: case 1, lambda=1
+chi[22] degree 8, conductor 1: case 1, lambda=1
+chi[23] degree 8, conductor 1: case 1, lambda=1
+chi[24] degree 8, conductor 1: case 1, lambda=1
+chi[25] degree 8, conductor 1: case 1, lambda=1
+chi[26] degree 16, conductor 1: case 1, lambda=1
+chi[27] degree 16, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 27 | Case-2 orbits: 0
+
+  chi_S[59] (degree 2072576) --> chi_N[26] (degree 16)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[54] (degree 1835008) --> chi_N[27] (degree 16)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[52] (degree 1771000) --> chi_N[22] (degree 8)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[53] (degree 1771000) --> chi_N[23] (degree 8)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[50] (degree 1288000) --> chi_N[24] (degree 8)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[41] (degree 442750) --> chi_N[25] (degree 8)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[34] (degree 253000) --> chi_N[19] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[30] (degree 226688) --> chi_N[20] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[29] (degree 221375) --> chi_N[21] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[26] (degree 177100) --> chi_N[9] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[25] (degree 129536) --> chi_N[10] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[21] (degree 63250) --> chi_N[11] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[20] (degree 44275) --> chi_N[12] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[16] (degree 31625) --> chi_N[13] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[17] (degree 31625) --> chi_N[14] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[15] (degree 23000) --> chi_N[15] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[14] (degree 12650) --> chi_N[16] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[10] (degree 9625) --> chi_N[17] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[11] (degree 9625) --> chi_N[18] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[9] (degree 7084) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[8] (degree 4025) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[6] (degree 2024) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[5] (degree 1771) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[4] (degree 275) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[3] (degree 253) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 23) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+========================================================
+=== PRIME p = 5
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : 5^(1+2):4S4 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 23, conductor 1: case 1, lambda=1
+chi[3] degree 253, conductor 1: case 1, lambda=1
+chi[5] degree 1771, conductor 1: case 1, lambda=1
+chi[6] degree 2024, conductor 1: case 1, lambda=1
+chi[7] degree 2277, conductor 1: case 1, lambda=1
+chi[9] degree 7084, conductor 1: case 1, lambda=1
+chi[18] degree 31878, conductor 1: case 1, lambda=1
+chi[19] degree 37422, conductor 1: case 1, lambda=1
+chi[25] degree 129536, conductor 1: case 1, lambda=1
+chi[27] degree 184437, conductor 1: case 1, lambda=1
+chi[30] degree 226688, conductor 1: case 1, lambda=1
+chi[33] degree 245916, conductor 1: case 1, lambda=1
+chi[36] degree 312984, conductor 1: case 1, lambda=1
+chi[37] degree 368874, conductor 1: case 1, lambda=1
+chi[40] degree 430353, conductor 1: case 1, lambda=1
+chi[51] degree 1291059, conductor 1: case 1, lambda=1
+chi[54] degree 1835008, conductor 1: case 1, lambda=1
+chi[58] degree 2040192, conductor 1: case 1, lambda=1
+chi[59] degree 2072576, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 4: case 1, lambda=1
+chi[2] degree 1, conductor 4: case 1, lambda=1
+chi[3] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 1, conductor 1: case 1, lambda=1
+chi[5] degree 2, conductor 4: case 1, lambda=1
+chi[6] degree 2, conductor 4: case 1, lambda=1
+chi[7] degree 2, conductor 4: case 1, lambda=1
+chi[8] degree 2, conductor 4: case 1, lambda=1
+chi[9] degree 2, conductor 1: case 1, lambda=1
+chi[10] degree 2, conductor 1: case 1, lambda=1
+chi[11] degree 3, conductor 4: case 1, lambda=1
+chi[12] degree 3, conductor 4: case 1, lambda=1
+chi[13] degree 3, conductor 1: case 1, lambda=1
+chi[14] degree 3, conductor 1: case 1, lambda=1
+chi[15] degree 4, conductor 4: case 1, lambda=1
+chi[16] degree 4, conductor 4: case 1, lambda=1
+chi[20] degree 24, conductor 4: case 1, lambda=1
+chi[21] degree 24, conductor 4: case 1, lambda=1
+chi[22] degree 24, conductor 1: case 1, lambda=1
+chi[23] degree 24, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 20 | Case-2 orbits: 0
+
+  chi_S[59] (degree 2072576) --> chi_N[20] (degree 24)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[58] (degree 2040192) --> chi_N[21] (degree 24)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[54] (degree 1835008) --> chi_N[22] (degree 24)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[51] (degree 1291059) --> chi_N[23] (degree 24)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[40] (degree 430353) --> chi_N[15] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[37] (degree 368874) --> chi_N[16] (degree 4)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[36] (degree 312984) --> chi_N[11] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[33] (degree 245916) --> chi_N[12] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[30] (degree 226688) --> chi_N[13] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[27] (degree 184437) --> chi_N[14] (degree 3)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[25] (degree 129536) --> chi_N[5] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[19] (degree 37422) --> chi_N[6] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[18] (degree 31878) --> chi_N[7] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[9] (degree 7084) --> chi_N[8] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[7] (degree 2277) --> chi_N[9] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[6] (degree 2024) --> chi_N[10] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[5] (degree 1771) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[3] (degree 253) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 23) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+========================================================
+=== PRIME p = 7
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : Co2N7 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 23, conductor 1: case 1, lambda=1
+chi[3] degree 253, conductor 1: case 1, lambda=1
+chi[4] degree 275, conductor 1: case 1, lambda=1
+chi[6] degree 2024, conductor 1: case 1, lambda=1
+chi[7] degree 2277, conductor 1: case 1, lambda=1
+chi[14] degree 12650, conductor 1: case 1, lambda=1
+chi[15] degree 23000, conductor 1: case 1, lambda=1
+chi[16] degree 31625, conductor 1: case 1, lambda=1
+chi[17] degree 31625, conductor 1: case 1, lambda=1
+chi[21] degree 63250, conductor 1: case 1, lambda=1
+chi[22] degree 91125, conductor 7: case 1, lambda=1
+chi[23] degree 91125, conductor 7: case 1, lambda=1
+chi[24] degree 113850, conductor 1: case 1, lambda=1
+chi[25] degree 129536, conductor 1: case 1, lambda=1
+chi[27] degree 184437, conductor 1: case 1, lambda=1
+chi[33] degree 245916, conductor 1: case 1, lambda=1
+chi[34] degree 253000, conductor 1: case 1, lambda=1
+chi[35] degree 284625, conductor 1: case 1, lambda=1
+chi[37] degree 368874, conductor 1: case 1, lambda=1
+chi[44] degree 558900, conductor 1: case 1, lambda=1
+chi[49] degree 853875, conductor 1: case 1, lambda=1
+chi[55] degree 1943040, conductor 1: case 1, lambda=1
+chi[57] degree 2004750, conductor 1: case 1, lambda=1
+chi[59] degree 2072576, conductor 1: case 1, lambda=1
+chi[60] degree 2095875, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 1: case 1, lambda=1
+chi[3] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 1, conductor 1: case 1, lambda=1
+chi[5] degree 1, conductor 3: case 1, lambda=1
+chi[6] degree 1, conductor 3: case 1, lambda=1
+chi[7] degree 1, conductor 3: case 1, lambda=1
+chi[8] degree 1, conductor 3: case 1, lambda=1
+chi[9] degree 1, conductor 3: case 1, lambda=1
+chi[10] degree 1, conductor 3: case 1, lambda=1
+chi[11] degree 1, conductor 3: case 1, lambda=1
+chi[12] degree 1, conductor 3: case 1, lambda=1
+chi[13] degree 2, conductor 1: case 1, lambda=1
+chi[14] degree 2, conductor 24: case 1, lambda=1
+chi[15] degree 2, conductor 24: case 1, lambda=1
+chi[16] degree 2, conductor 24: case 1, lambda=1
+chi[17] degree 2, conductor 24: case 1, lambda=1
+chi[18] degree 2, conductor 8: case 1, lambda=1
+chi[19] degree 2, conductor 8: case 1, lambda=1
+chi[20] degree 2, conductor 3: case 1, lambda=1
+chi[21] degree 2, conductor 3: case 1, lambda=1
+chi[22] degree 6, conductor 1: case 1, lambda=1
+chi[23] degree 6, conductor 1: case 1, lambda=1
+chi[24] degree 6, conductor 7: case 1, lambda=1
+chi[25] degree 6, conductor 7: case 1, lambda=1
+chi[26] degree 12, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 26 | Case-2 orbits: 0
+
+  chi_S[60] (degree 2095875) --> chi_N[26] (degree 12)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[59] (degree 2072576) --> chi_N[22] (degree 6)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[57] (degree 2004750) --> chi_N[23] (degree 6)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[55] (degree 1943040) --> chi_N[13] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[49] (degree 853875) --> chi_N[14] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[44] (degree 558900) --> chi_N[15] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[37] (degree 368874) --> chi_N[16] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[35] (degree 284625) --> chi_N[17] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[34] (degree 253000) --> chi_N[18] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[33] (degree 245916) --> chi_N[19] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[27] (degree 184437) --> chi_N[20] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[25] (degree 129536) --> chi_N[21] (degree 2)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[24] (degree 113850) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[21] (degree 63250) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[16] (degree 31625) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[17] (degree 31625) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[15] (degree 23000) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[14] (degree 12650) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[7] (degree 2277) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[6] (degree 2024) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[4] (degree 275) --> chi_N[9] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[3] (degree 253) --> chi_N[10] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 23) --> chi_N[11] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[12] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[22] (degree 91125) --> chi_N[24] (degree 6)  [case 1, lambda=1, C_p(S)=7, C_p(N)=7]
+  chi_S[23] (degree 91125) --> chi_N[25] (degree 6)  [case 1, lambda=1, C_p(S)=7, C_p(N)=7]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+========================================================
+=== PRIME p = 11
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : 11:10 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 23, conductor 1: case 1, lambda=1
+chi[8] degree 4025, conductor 1: case 1, lambda=1
+chi[15] degree 23000, conductor 1: case 1, lambda=1
+chi[22] degree 91125, conductor 7: case 1, lambda=1
+chi[23] degree 91125, conductor 7: case 1, lambda=1
+chi[36] degree 312984, conductor 1: case 1, lambda=1
+chi[44] degree 558900, conductor 1: case 1, lambda=1
+chi[50] degree 1288000, conductor 1: case 1, lambda=1
+chi[54] degree 1835008, conductor 1: case 1, lambda=1
+chi[60] degree 2095875, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 5: case 1, lambda=1
+chi[3] degree 1, conductor 5: case 1, lambda=1
+chi[4] degree 1, conductor 5: case 1, lambda=1
+chi[5] degree 1, conductor 5: case 1, lambda=1
+chi[6] degree 1, conductor 1: case 1, lambda=1
+chi[7] degree 1, conductor 5: case 1, lambda=1
+chi[8] degree 1, conductor 5: case 1, lambda=1
+chi[9] degree 1, conductor 5: case 1, lambda=1
+chi[10] degree 1, conductor 5: case 1, lambda=1
+chi[11] degree 10, conductor 1: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 11 | Case-2 orbits: 0
+
+  chi_S[60] (degree 2095875) --> chi_N[11] (degree 10)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[54] (degree 1835008) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[50] (degree 1288000) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[44] (degree 558900) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[36] (degree 312984) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[22] (degree 91125) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[23] (degree 91125) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[15] (degree 23000) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[8] (degree 4025) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[2] (degree 23) --> chi_N[9] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[10] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+========================================================
+=== PRIME p = 23
+========================================================
+Simple group   = Co2
+Cover S_hat    = Co2
+Schur multiplier = 1
+|Out(S)| = 1
+Route, S_hat side       : library
+Route, N_{S_hat}(P) side: library
+Verification, S_hat     : none
+Verification, N         : none
+Table used for S_hat    : Co2
+Table for N_{S_hat}(P)  : 23:11 (library)
+
+--- CLASSIFICATION OF Irr_{p'}(S_hat) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[4] degree 275, conductor 1: case 1, lambda=1
+chi[10] degree 9625, conductor 23: case 1, lambda=1
+chi[11] degree 9625, conductor 23: case 1, lambda=1
+chi[12] degree 10395, conductor 15: case 1, lambda=1
+chi[13] degree 10395, conductor 15: case 1, lambda=1
+chi[19] degree 37422, conductor 1: case 1, lambda=1
+chi[22] degree 91125, conductor 7: case 1, lambda=1
+chi[23] degree 91125, conductor 7: case 1, lambda=1
+chi[42] degree 462000, conductor 1: case 1, lambda=1
+chi[43] degree 467775, conductor 1: case 1, lambda=1
+chi[54] degree 1835008, conductor 1: case 1, lambda=1
+chi[57] degree 2004750, conductor 1: case 1, lambda=1
+
+--- CLASSIFICATION OF Irr_{p'}(N_S_hat(P)) ---
+chi[1] degree 1, conductor 1: case 1, lambda=1
+chi[2] degree 1, conductor 11: case 1, lambda=1
+chi[3] degree 1, conductor 11: case 1, lambda=1
+chi[4] degree 1, conductor 11: case 1, lambda=1
+chi[5] degree 1, conductor 11: case 1, lambda=1
+chi[6] degree 1, conductor 11: case 1, lambda=1
+chi[7] degree 1, conductor 11: case 1, lambda=1
+chi[8] degree 1, conductor 11: case 1, lambda=1
+chi[9] degree 1, conductor 11: case 1, lambda=1
+chi[10] degree 1, conductor 11: case 1, lambda=1
+chi[11] degree 1, conductor 11: case 1, lambda=1
+chi[12] degree 11, conductor 23: case 1, lambda=1
+chi[13] degree 11, conductor 23: case 1, lambda=1
+
+--- BIJECTION Irr_{p'}(S_hat) <-> Irr_{p'}(N_S_hat(P)) ---
+Case-1 orbits: 13 | Case-2 orbits: 0
+
+  chi_S[57] (degree 2004750) --> chi_N[1] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[54] (degree 1835008) --> chi_N[2] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[43] (degree 467775) --> chi_N[3] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[42] (degree 462000) --> chi_N[4] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[22] (degree 91125) --> chi_N[5] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[23] (degree 91125) --> chi_N[6] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[19] (degree 37422) --> chi_N[7] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[12] (degree 10395) --> chi_N[8] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[13] (degree 10395) --> chi_N[9] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[4] (degree 275) --> chi_N[10] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[1] (degree 1) --> chi_N[11] (degree 1)  [case 1, lambda=1, C_p(S)=1, C_p(N)=1]
+  chi_S[10] (degree 9625) --> chi_N[12] (degree 11)  [case 1, lambda=1, C_p(S)=23, C_p(N)=23]
+  chi_S[11] (degree 9625) --> chi_N[13] (degree 11)  [case 1, lambda=1, C_p(S)=23, C_p(N)=23]
+
+Condition (1) equivariance (case preserved): verified.
+Condition (2) non-increasing degree: verified.
+Condition (3) Schur over Z(S_hat): verified.
+Condition (4) p-part of the conductor: verified.
+
+### T1.11 STATUS: OK   (elapsed: 125 ms)

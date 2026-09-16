@@ -1,0 +1,38 @@
+########################################################
+### T3.03 | M22 | primes=[ 2, 3, 5, 7, 11 ] | clifford=false
+########################################################
+Error, reached the pre-set memory limit
+(change it with the -o command line option) in
+  res[i] := func( C[i] ); at /opt/gap-4.15.1/lib/coll.gi:663 called from 
+List( S.labelimages, function ( g )
+      return ImagesRepresentative( hom1, g );
+  end ) at /opt/gap-4.15.1/lib/ghomperm.gi:1117 called from
+CompositionMapping2( nxt, com ) at /opt/gap-4.15.1/lib/mapping.gi:399 called from
+CompositionMapping( map2, map1 ) at /opt/gap-4.15.1/lib/mapping.gi:788 called from
+opr( img, S.transimages[bimg[1]] ) at /opt/gap-4.15.1/lib/ghomperm.gi:132 called from
+ImageSiftedBaseImage( S, OnTuples( BaseStabChain( S ), elm ), S.idimage, OnRight ) at /opt/gap-4.15.1/lib/ghomperm.gi:1076 called from
+...  at C:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/RunAllTests.g:330
+you can 'return;'
+brk> return;
+Error, user interrupt in
+  bimg := OnTuples( bimg, S.transversal[bimg[1]] ); at /opt/gap-4.15.1/lib/ghomperm.gi:133 called from 
+ImageSiftedBaseImage( S, OnTuples( BaseStabChain( S ), elm ), S.idimage, OnRight ) at /opt/gap-4.15.1/lib/ghomperm.gi:1076 called from
+ImageElm( map, elm ) at /opt/gap-4.15.1/lib/mapping.gi:817 called from
+act( pnt, g ) at /opt/gap-4.15.1/lib/oprt.gi:2136 called from
+PermutationOp( g, D, act ) at /opt/gap-4.15.1/lib/oprt.gi:2109 called from
+Permutation( elm, he, fun ) at /opt/gap-4.15.1/lib/oprt.gi:3254 called from
+...  at C:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/RunAllTests.g:330
+you can 'return;'
+brk> quit;
+#I  Options stack has been reset
+gap> INICIO := "T3.04";;
+gap> Read("C:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/RunAllTests.g");
+
+#####################################################################
+###   COMPREHENSIVE TEST SUITE FOR version 2/                     ###
+###   Per-call logs go to: c:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/test_logs
+#####################################################################
+#I  Already logging to c:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/test_logs/M22/ClassifySporadic(M22,[2,3,5,7,11],false,false,false).log
+########################################################
+### T3.04 | HS | primes=[ 5 ] | clifford=false
+########################################################

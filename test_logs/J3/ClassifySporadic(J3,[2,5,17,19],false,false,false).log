@@ -1,0 +1,17 @@
+########################################################
+### T3.05 | J3 | primes=[ 2, 5, 17, 19 ] | clifford=false
+########################################################
+Error, user interrupt in
+  res[i] := func( C[i] ); at /opt/gap-4.15.1/lib/coll.gi:663 called from 
+List( BaseOfGroup( xset ), function ( b )
+      return PositionCanonical( D, act( b, elm ) );
+  end ) at /opt/gap-4.15.1/lib/oprt.gi:3333 called from
+ImagesRepresentative( nice, elm ) at /opt/gap-4.15.1/lib/grpnice.gi:210 called from
+x / Representative( C ) in ActingDomain( C ) at /opt/gap-4.15.1/lib/csetgrp.gi:1807 called from
+elm in cs!.cosets[i] at /opt/gap-4.15.1/lib/csetgrp.gi:1755 called from
+func( elm ) at /opt/gap-4.15.1/lib/list.gi:2885 called from
+...  at C:/Users/Izan/Documents/Izan/Universidad/4/Proyecto de colaboracion/GAP 6/version 2/RunAllTests.g:332
+you can 'return;'
+brk>  quit;
+#I  Options stack has been reset
+gap> quit;
