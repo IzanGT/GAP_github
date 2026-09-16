@@ -1,6 +1,6 @@
 # GAP Refined McKay Conjecture Verification
 
-This repository contains the necessary files to execute the computational verification of the refined McKay conjecture for finite simple groups (sporadic and non-sporadic), as described in the associated paper.
+This repository contains the necessary files to execute the computational verification of the refined McKay conjecture for finite simple groups (sporadic and non-sporadic) with |Out(X)| \leq 2, as described in the associated paper.
 
 ## Directory Structure
 
